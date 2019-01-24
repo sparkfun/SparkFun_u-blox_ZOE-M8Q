@@ -16671,7 +16671,7 @@ the 3 V variant.&lt;/p&gt;
 <wire x1="2.254" y1="-2.246" x2="2.254" y2="2.254" width="0.05" layer="51"/>
 <wire x1="2.254" y1="2.254" x2="-2.246" y2="2.254" width="0.05" layer="51"/>
 <wire x1="-2.246" y1="2.254" x2="-2.246" y2="-2.246" width="0.05" layer="51"/>
-<circle x="-3.246" y="2.754" radius="0.5" width="0" layer="21"/>
+<circle x="-2.738" y="2.754" radius="0.254" width="0" layer="21"/>
 <text x="-2.246" y="2.754" size="1" layer="25">&gt;NAME</text>
 <text x="-2.246" y="-4.246" size="1" layer="27">&gt;VALUE</text>
 <smd name="1" x="-1.996" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
@@ -16781,11 +16781,29 @@ the 3 V variant.&lt;/p&gt;
 <circle x="0.501" y="0.5051" radius="0.15" width="0" layer="29"/>
 <circle x="-0.499" y="0.5035" radius="0.15" width="0" layer="29"/>
 <circle x="-0.9973" y="0.5051" radius="0.15" width="0" layer="29"/>
+<wire x1="2.413" y1="-2.413" x2="2.413" y2="2.413" width="0.0508" layer="39"/>
+<wire x1="2.413" y1="2.413" x2="-2.413" y2="2.413" width="0.0508" layer="39"/>
+<wire x1="-2.413" y1="2.413" x2="-2.413" y2="-2.413" width="0.0508" layer="39"/>
+<wire x1="-2.413" y1="-2.413" x2="2.413" y2="-2.413" width="0.0508" layer="39"/>
 </package>
-<package name="0806">
+<package name="0806_NDUC">
 <description>&lt;h3&gt;0806&lt;/h3&gt;</description>
 <smd name="P$1" x="-1.3" y="0" dx="0.8" dy="1.8" layer="1" rot="R90"/>
 <smd name="P$2" x="1.3" y="0" dx="0.8" dy="1.8" layer="1" rot="R90"/>
+<wire x1="-1" y1="-0.8" x2="-0.5" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="-0.8" x2="0.5" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="0.5" y1="-0.8" x2="1" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1" y1="-0.8" x2="1" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1" y1="0.8" x2="0.5" y2="0.8" width="0.05" layer="51"/>
+<wire x1="0.5" y1="0.8" x2="-0.5" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.8" x2="-1" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-1" y1="0.8" x2="-1" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.08" y1="-0.87" x2="1.08" y2="0.87" width="0.05" layer="39"/>
+<wire x1="1.08" y1="0.87" x2="-1.08" y2="0.87" width="0.05" layer="39"/>
+<wire x1="-1.08" y1="0.87" x2="-1.08" y2="-0.87" width="0.05" layer="39"/>
+<wire x1="-1.08" y1="-0.87" x2="1.08" y2="-0.87" width="0.05" layer="39"/>
+<rectangle x1="-1.01" y1="-0.81" x2="-0.48" y2="0.81" layer="51"/>
+<rectangle x1="0.48" y1="-0.81" x2="1.01" y2="0.82" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -16897,7 +16915,7 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0806">
+<device name="" package="0806_NDUC">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -21473,7 +21491,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="396.24" y="157.48" size="2.54" layer="97" font="vector">I2C Pull ups</text>
 <text x="233.68" y="177.8" size="2.54" layer="97" font="vector">FTDI </text>
 <text x="233.68" y="172.72" size="2.54" layer="97" font="vector">I2C standard</text>
-<text x="233.68" y="182.88" size="2.54" layer="97" font="vector">UART Connector</text>
 <text x="335.28" y="99.06" size="2.54" layer="97" font="vector">Cut trace to disconnect LED</text>
 </plain>
 <instances>
@@ -21585,11 +21602,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND2" gate="1" x="350.52" y="147.32" smashed="yes">
 <attribute name="VALUE" x="350.52" y="147.066" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="251.46" y="154.94" smashed="yes">
-<attribute name="VALUE" x="251.46" y="157.734" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY4" gate="G$1" x="248.92" y="154.94" smashed="yes">
+<attribute name="VALUE" x="248.92" y="157.734" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND4" gate="1" x="248.92" y="137.16" smashed="yes">
-<attribute name="VALUE" x="248.92" y="136.906" size="1.778" layer="96" align="top-center"/>
+<instance part="GND4" gate="1" x="246.38" y="137.16" smashed="yes">
+<attribute name="VALUE" x="246.38" y="136.906" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="327.66" y="33.02" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="398.78" y="45.72" smashed="yes"/>
@@ -21663,9 +21680,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="248.92" y1="154.94" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="154.94" x2="246.38" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="243.84" y1="154.94" x2="248.92" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="154.94" x2="246.38" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -21702,9 +21719,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
-<wire x1="251.46" y1="147.32" x2="251.46" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="243.84" y1="147.32" x2="251.46" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="248.92" y1="149.86" x2="248.92" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="149.86" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
@@ -21735,9 +21752,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="205.74" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="144.78" x2="254" y2="144.78" width="0.1524" layer="91"/>
-<label x="254" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="5"/>
+<wire x1="243.84" y1="152.4" x2="251.46" y2="152.4" width="0.1524" layer="91"/>
+<label x="251.46" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL/CLK" class="0">
@@ -21764,8 +21781,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="142.24" x2="254" y2="142.24" width="0.1524" layer="91"/>
-<label x="254" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="243.84" y1="142.24" x2="251.46" y2="142.24" width="0.1524" layer="91"/>
+<label x="251.46" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -21819,9 +21836,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="91.44" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="243.84" y1="152.4" x2="254" y2="152.4" width="0.1524" layer="91"/>
-<label x="254" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="144.78" x2="251.46" y2="144.78" width="0.1524" layer="91"/>
+<label x="251.46" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D_SEL" class="0">
@@ -21918,9 +21935,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="91.44" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="243.84" y1="149.86" x2="254" y2="149.86" width="0.1524" layer="91"/>
-<label x="254" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="243.84" y1="147.32" x2="251.46" y2="147.32" width="0.1524" layer="91"/>
+<label x="251.46" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
