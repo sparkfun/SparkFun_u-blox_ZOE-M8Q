@@ -22344,8 +22344,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="307.34" y="266.7" size="5.08" layer="94" font="vector" ratio="12">Jumpers</text>
 <text x="322.58" y="238.76" size="2.54" layer="97" font="vector">Close Jumper for SPI</text>
 <text x="391.16" y="236.22" size="2.54" layer="97" font="vector">I2C Pull ups</text>
-<text x="233.68" y="106.68" size="2.54" layer="97" font="vector">FTDI </text>
-<text x="233.68" y="101.6" size="2.54" layer="97" font="vector">I2C standard</text>
 <text x="330.2" y="177.8" size="2.54" layer="97" font="vector">Cut trace to disconnect LED</text>
 <wire x1="132.08" y1="129.54" x2="302.26" y2="129.54" width="0.2032" layer="97" style="shortdash"/>
 <text x="139.7" y="269.24" size="5.08" layer="94" font="vector">Antenna</text>

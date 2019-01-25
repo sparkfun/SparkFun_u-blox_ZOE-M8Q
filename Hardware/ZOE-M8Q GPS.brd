@@ -156,26 +156,26 @@
 <text x="19.05" y="-12.7" size="1.778" layer="51" font="vector" ratio="15">Elias Santistevan</text>
 <text x="20.32" y="23.622" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
 <polygon width="0.127" layer="21">
-<vertex x="5.1308" y="5.8166"/>
-<vertex x="6.6294" y="5.8166"/>
-<vertex x="7.6962" y="6.8834"/>
-<vertex x="5.1054" y="6.8834"/>
-<vertex x="5.1054" y="5.8166"/>
+<vertex x="5.1308" y="5.801359375"/>
+<vertex x="6.614159375" y="5.801359375"/>
+<vertex x="7.711440625" y="6.898640625"/>
+<vertex x="5.1181" y="6.898640625"/>
+<vertex x="5.1181" y="5.8166"/>
 <vertex x="5.1562" y="5.8166"/>
 <vertex x="5.1562" y="5.842"/>
 <vertex x="5.1308" y="5.842"/>
 </polygon>
 <polygon width="0.127" layer="21">
-<vertex x="11.303" y="5.8166"/>
-<vertex x="10.3124" y="5.8166"/>
-<vertex x="9.2456" y="6.8834"/>
-<vertex x="11.15229375" y="6.8834"/>
+<vertex x="11.300459375" y="5.8013625"/>
+<vertex x="10.3276375" y="5.8013625"/>
+<vertex x="9.2329" y="6.8961"/>
+<vertex x="11.162453125" y="6.8961"/>
 </polygon>
 <polygon width="0.127" layer="21">
-<vertex x="3.0226" y="6.8834"/>
-<vertex x="0" y="6.8834"/>
-<vertex x="0" y="5.8166"/>
-<vertex x="3.0734" y="5.8166"/>
+<vertex x="3.0226" y="6.8961"/>
+<vertex x="0" y="6.8961"/>
+<vertex x="0" y="5.801359375"/>
+<vertex x="3.088640625" y="5.801359375"/>
 <vertex x="3.0226" y="5.8674"/>
 </polygon>
 <polygon width="0.127" layer="21">
@@ -184,16 +184,12 @@
 <vertex x="14.0462" y="6.858"/>
 </polygon>
 <polygon width="0.127" layer="21">
-<vertex x="14.1732" y="5.8166"/>
-<vertex x="16.3068" y="5.8166"/>
-<vertex x="16.3576" y="5.7658"/>
-<vertex x="16.3576" y="6.5278"/>
-<vertex x="16.6624" y="6.8326"/>
-<vertex x="16.6116" y="6.8834"/>
-<vertex x="13.9192" y="6.8834"/>
-<vertex x="13.9192" y="5.9436"/>
-<vertex x="14.0716" y="5.7912"/>
-<vertex x="14.1732" y="5.8166"/>
+<vertex x="14.048459375" y="5.801359375"/>
+<vertex x="16.3449" y="5.801359375"/>
+<vertex x="16.3449" y="6.8707"/>
+<vertex x="16.3195" y="6.8961"/>
+<vertex x="13.9192" y="6.8961"/>
+<vertex x="13.9192" y="5.93061875"/>
 </polygon>
 <dimension x1="25.4" y1="25.4" x2="25.4" y2="0" x3="31.75" y3="12.7" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <polygon width="0.127" layer="22">
@@ -5600,9 +5596,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$8" library="CLK" package="CLK0" value="" x="2.54" y="1.6764" smashed="yes" rot="MR90"/>
 <element name="U$10" library="Labels" package="3V3-03" value="" x="10.16" y="1.5748" smashed="yes" rot="MR90"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="9.652" y="14.986" smashed="yes" rot="MR0"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="23.368" y="18.034" smashed="yes"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="23.362921875" y="17.213578125" smashed="yes"/>
 <element name="U$16" library="ZOE-M8Q" package="ZOE#M8Q0" value="" x="12.7508" y="12.6238" smashed="yes" rot="MR0"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="7.874" y="16.51" smashed="yes"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="4.9047375" y="17.386303125" smashed="yes"/>
 <element name="U$17" library="SPI_JUMPER" package="SPI0" value="" x="19.558" y="10.922" smashed="yes" rot="MR0"/>
 <element name="U$18" library="I2C_PU" package="I2C_PU0" value="" x="20.447" y="16.51" smashed="yes" rot="MR0"/>
 <element name="D2" library="SparkFun-LED" package="LED-0603" value="RED" x="2.032" y="18.542" smashed="yes">
