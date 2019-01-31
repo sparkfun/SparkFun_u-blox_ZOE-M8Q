@@ -18089,283 +18089,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="temp">
-<packages>
-<package name="UBLOX_ZOE_M8-0-10">
-<description>&lt;h3&gt;UBLOX ZOE-M8Q-0-10&lt;/h3&gt;
-&lt;p&gt;The ZOE-M8G and ZOE-M8Q are u-blox’s super small, highly integrated GNSS SiP (System in Package) modules
-based on the high performing u-blox M8 concurrent positioning engine. The ultra-miniature form factor integrates
-a complete GNSS receiver including SAW filter, LNA and TCXO. The ZOE-M8Q is
-the 3 V variant.&lt;/p&gt; 
-
-&lt;p&gt;&lt;b&gt;Phyical Characteristics&lt;/b&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;LGA&lt;/li&gt;
-&lt;li&gt;51 Pins&lt;/li&gt;
-&lt;li&gt;4.5mm X 4.5mm X 1mm&lt;/li&gt;
-&lt;li&gt;51 Pins&lt;/li&gt;
-&lt;/ul&gt;</description>
-<wire x1="-2.246" y1="-2.246" x2="2.254" y2="-2.246" width="0.05" layer="51"/>
-<wire x1="2.254" y1="-2.246" x2="2.254" y2="2.254" width="0.05" layer="51"/>
-<wire x1="2.254" y1="2.254" x2="-2.246" y2="2.254" width="0.05" layer="51"/>
-<wire x1="-2.246" y1="2.254" x2="-2.246" y2="-2.246" width="0.05" layer="51"/>
-<circle x="-2.738" y="2.754" radius="0.254" width="0" layer="21"/>
-<text x="-2.246" y="2.754" size="1" layer="25">&gt;NAME</text>
-<text x="-2.246" y="-4.246" size="1" layer="27">&gt;VALUE</text>
-<smd name="1" x="-1.996" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="3" x="-0.996" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="4" x="-0.496" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="5" x="0.004" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="6" x="0.504" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="7" x="1.004" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="8" x="1.504" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="9" x="2.004" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<wire x1="-1.746" y1="-2.346" x2="1.754" y2="-2.346" width="0.1" layer="21"/>
-<wire x1="2.354" y1="-1.746" x2="2.354" y2="1.754" width="0.1" layer="21"/>
-<wire x1="-2.346" y1="-1.746" x2="-2.346" y2="1.754" width="0.1" layer="21"/>
-<wire x1="-1.746" y1="2.354" x2="1.754" y2="2.354" width="0.1" layer="21"/>
-<smd name="2" x="-1.496" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="10" x="2.004" y="1.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="11" x="2.004" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="12" x="2.004" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="13" x="2.004" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="14" x="2.004" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="15" x="2.004" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="16" x="2.004" y="-1.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="17" x="2.004" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="18" x="1.504" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="19" x="1.004" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="20" x="0.504" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="21" x="0.004" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="22" x="-0.496" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="23" x="-0.996" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="24" x="-1.496" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="25" x="-1.996" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="26" x="-1.996" y="-1.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="27" x="-1.996" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="28" x="-1.996" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="29" x="-1.996" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="30" x="-1.996" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="31" x="-1.996" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="32" x="-1.996" y="1.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="33" x="-0.996" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="34" x="-0.496" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="35" x="0.004" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="36" x="0.504" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="37" x="1.004" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="38" x="1.004" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="39" x="1.004" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="40" x="1.004" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="41" x="0.504" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="42" x="0.004" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="43" x="-0.496" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="44" x="-0.996" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="45" x="-0.996" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="46" x="-0.996" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="47" x="-0.996" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="48" x="-0.496" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="49" x="0.504" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="50" x="0.504" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<smd name="51" x="-0.496" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
-<circle x="-1.9965" y="-1.9941" radius="0.15" width="0" layer="29"/>
-<circle x="-1.4965" y="-1.9941" radius="0.15" width="0" layer="29"/>
-<circle x="-0.9965" y="-1.9941" radius="0.15" width="0" layer="29"/>
-<circle x="-0.4965" y="-1.9941" radius="0.15" width="0" layer="29"/>
-<circle x="0.0035" y="-1.9941" radius="0.15" width="0" layer="29"/>
-<circle x="0.5035" y="-1.9941" radius="0.15" width="0" layer="29"/>
-<circle x="1.0035" y="-1.9941" radius="0.15" width="0" layer="29"/>
-<circle x="1.5035" y="-1.9941" radius="0.15" width="0" layer="29"/>
-<circle x="2.0035" y="-1.9941" radius="0.15" width="0" layer="29"/>
-<wire x1="-2.246" y1="6.254" x2="-2.246" y2="1.754" width="0.05" layer="51"/>
-<circle x="-1.9965" y="2.0059" radius="0.15" width="0" layer="29"/>
-<circle x="-1.4965" y="2.0059" radius="0.15" width="0" layer="29"/>
-<circle x="-0.9965" y="2.0059" radius="0.15" width="0" layer="29"/>
-<circle x="-0.4965" y="2.0059" radius="0.15" width="0" layer="29"/>
-<circle x="0.0035" y="2.0059" radius="0.15" width="0" layer="29"/>
-<circle x="0.5035" y="2.0059" radius="0.15" width="0" layer="29"/>
-<circle x="1.0035" y="2.0059" radius="0.15" width="0" layer="29"/>
-<circle x="1.5035" y="2.0059" radius="0.15" width="0" layer="29"/>
-<circle x="2.0035" y="2.0059" radius="0.15" width="0" layer="29"/>
-<circle x="-1.9982" y="-1.4961" radius="0.15" width="0" layer="29"/>
-<circle x="-1.9982" y="-0.9961" radius="0.15" width="0" layer="29"/>
-<circle x="-1.9982" y="-0.4961" radius="0.15" width="0" layer="29"/>
-<circle x="-1.9982" y="0.0039" radius="0.15" width="0" layer="29"/>
-<circle x="-1.9982" y="0.5039" radius="0.15" width="0" layer="29"/>
-<circle x="-1.9982" y="1.0039" radius="0.15" width="0" layer="29"/>
-<circle x="-1.9982" y="1.5039" radius="0.15" width="0" layer="29"/>
-<circle x="2.0035" y="-1.4978" radius="0.15" width="0" layer="29"/>
-<circle x="2.0035" y="-0.9978" radius="0.15" width="0" layer="29"/>
-<circle x="2.0035" y="-0.4978" radius="0.15" width="0" layer="29"/>
-<circle x="2.0035" y="0.0022" radius="0.15" width="0" layer="29"/>
-<circle x="2.0035" y="0.5022" radius="0.15" width="0" layer="29"/>
-<circle x="2.0035" y="1.0022" radius="0.15" width="0" layer="29"/>
-<circle x="2.0035" y="1.5022" radius="0.15" width="0" layer="29"/>
-<circle x="1.0052" y="1.0038" radius="0.15" width="0" layer="29"/>
-<circle x="0.5052" y="1.0038" radius="0.15" width="0" layer="29"/>
-<circle x="0.0052" y="1.0038" radius="0.15" width="0" layer="29"/>
-<circle x="-0.4948" y="1.0038" radius="0.15" width="0" layer="29"/>
-<circle x="-0.9948" y="1.0038" radius="0.15" width="0" layer="29"/>
-<circle x="1.0032" y="-0.9982" radius="0.15" width="0" layer="29"/>
-<circle x="0.5024" y="-0.9966" radius="0.15" width="0" layer="29"/>
-<circle x="0.0027" y="-0.9972" radius="0.15" width="0" layer="29"/>
-<circle x="-0.4964" y="-0.9972" radius="0.15" width="0" layer="29"/>
-<circle x="-0.9973" y="-0.9973" radius="0.15" width="0" layer="29"/>
-<circle x="-0.9952" y="-0.498" radius="0.15" width="0" layer="29"/>
-<circle x="-0.4951" y="-0.4989" radius="0.15" width="0" layer="29"/>
-<circle x="0.5039" y="-0.4989" radius="0.15" width="0" layer="29"/>
-<circle x="1.002" y="-0.4999" radius="0.15" width="0" layer="29"/>
-<circle x="1.0018" y="0.0029" radius="0.15" width="0" layer="29"/>
-<circle x="-0.9983" y="0.0042" radius="0.15" width="0" layer="29"/>
-<circle x="0.501" y="0.5051" radius="0.15" width="0" layer="29"/>
-<circle x="-0.499" y="0.5035" radius="0.15" width="0" layer="29"/>
-<circle x="-0.9973" y="0.5051" radius="0.15" width="0" layer="29"/>
-<wire x1="2.413" y1="-2.413" x2="2.413" y2="2.413" width="0.0508" layer="39"/>
-<wire x1="2.413" y1="2.413" x2="-2.413" y2="2.413" width="0.0508" layer="39"/>
-<wire x1="-2.413" y1="2.413" x2="-2.413" y2="-2.413" width="0.0508" layer="39"/>
-<wire x1="-2.413" y1="-2.413" x2="2.413" y2="-2.413" width="0.0508" layer="39"/>
-</package>
-<package name="0806_NDUC">
-<description>&lt;h3&gt;0806&lt;/h3&gt;</description>
-<smd name="P$1" x="-1.3" y="0" dx="0.8" dy="1.8" layer="1" rot="R90"/>
-<smd name="P$2" x="1.3" y="0" dx="0.8" dy="1.8" layer="1" rot="R90"/>
-<wire x1="-1" y1="-0.8" x2="-0.5" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="-0.5" y1="-0.8" x2="0.5" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="0.5" y1="-0.8" x2="1" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="1" y1="-0.8" x2="1" y2="0.8" width="0.05" layer="51"/>
-<wire x1="1" y1="0.8" x2="0.5" y2="0.8" width="0.05" layer="51"/>
-<wire x1="0.5" y1="0.8" x2="-0.5" y2="0.8" width="0.05" layer="51"/>
-<wire x1="-0.5" y1="0.8" x2="-1" y2="0.8" width="0.05" layer="51"/>
-<wire x1="-1" y1="0.8" x2="-1" y2="-0.8" width="0.05" layer="51"/>
-<wire x1="1.08" y1="-0.87" x2="1.08" y2="0.87" width="0.05" layer="39"/>
-<wire x1="1.08" y1="0.87" x2="-1.08" y2="0.87" width="0.05" layer="39"/>
-<wire x1="-1.08" y1="0.87" x2="-1.08" y2="-0.87" width="0.05" layer="39"/>
-<wire x1="-1.08" y1="-0.87" x2="1.08" y2="-0.87" width="0.05" layer="39"/>
-<rectangle x1="-1.01" y1="-0.81" x2="-0.48" y2="0.81" layer="51"/>
-<rectangle x1="0.48" y1="-0.81" x2="1.01" y2="0.82" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="U-BLOX_ZOE-M8-0-10">
-<description>&lt;h3&gt;UBLOX ZOE-M8-0-10&lt;/h3&gt;
-
-&lt;p&gt;The ZOE-M8G and ZOE-M8Q are u-blox’s super small, highly integrated GNSS SiP (System in Package) modules
-based on the high performing u-blox M8 concurrent positioning engine. The ultra-miniature form factor integrates
-a complete GNSS receiver including SAW filter, LNA and TCXO. ZOE-M8Q is
-the 3 V variant.&lt;/p&gt;</description>
-<wire x1="-15.24" y1="25.4" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-22.86" x2="17.78" y2="25.4" width="0.254" layer="94"/>
-<wire x1="17.78" y1="25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
-<pin name="VCC" x="-20.32" y="22.86" length="middle" direction="pwr"/>
-<pin name="GND" x="-20.32" y="-20.32" length="middle" direction="pwr"/>
-<pin name="SDA/CS" x="22.86" y="22.86" length="middle" rot="R180"/>
-<pin name="SCL/CLK" x="22.86" y="20.32" length="middle" rot="R180"/>
-<pin name="D_SEL" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="RXD/MOSI" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="TXD/MISO" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="RTC_0" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="RTC_1" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="TIMEPULSE" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="SAFEBOOT_N" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="LNA_EN" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="P1015" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="P1014" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="PI013/EXTINT" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="RESET_N" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="SQI_G" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<text x="-15.24" y="27.94" size="2.54" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-27.94" size="2.54" layer="96">&gt;Value</text>
-<pin name="RF_IN" x="-20.32" y="5.08" length="middle"/>
-<pin name="V_CORE" x="-20.32" y="17.78" length="middle" direction="pwr"/>
-<pin name="V_DCDC_OUT" x="-20.32" y="15.24" length="middle" direction="pwr"/>
-<pin name="V_BCKP" x="-20.32" y="20.32" length="middle" direction="pwr"/>
-<pin name="SQI_O" x="22.86" y="-17.78" length="middle" direction="nc" rot="R180"/>
-<pin name="RESERVED" x="22.86" y="-20.32" length="middle" direction="nc" rot="R180"/>
-</symbol>
-<symbol name="INDUCTOR">
-<description>&lt;h3&gt;Inductors&lt;/h3&gt;
-&lt;p&gt;Resist changes in electrical current. Basically a coil of wire.&lt;/p&gt;</description>
-<text x="1.27" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="UBLOX_ZOE_M8-0-10" prefix="U">
-<description>&lt;h3&gt;UBLOX ZOE-M8Q-0-10&lt;/h3&gt;
-&lt;p&gt;u-blox ZOE-M8 standard precision GNSS SiP (System in Package) modules feature the high performance u-blox M8
-GNSS engine. ZOE-M8’s ultra-miniature form factor integrates a complete GNSS receiver including SAW filter, LNA
-and TCXO.&lt;/p&gt;
-&lt;p&gt;Handles  all &lt;b&gt;GNSS systems&lt;/b&gt;  and can simulatenously use up to three of them, with accuracy ranging from 2.5m to 4m.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GPS&lt;/li&gt;
-&lt;li&gt;GLONASS&lt;/li&gt;
-&lt;li&gt;BeiDou&lt;/li&gt;
-&lt;li&gt;Galileo&lt;/li&gt;
-&lt;/ul&gt;
-
-This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&gt; augmentation systems.</description>
-<gates>
-<gate name="G$1" symbol="U-BLOX_ZOE-M8-0-10" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="UBLOX_ZOE_M8-0-10">
-<connects>
-<connect gate="G$1" pin="D_SEL" pad="48"/>
-<connect gate="G$1" pin="GND" pad="1 3 5 7 8 9 10 11 12 17 23 37 38 39 40 41 44 49" route="any"/>
-<connect gate="G$1" pin="LNA_EN" pad="35"/>
-<connect gate="G$1" pin="P1014" pad="50"/>
-<connect gate="G$1" pin="P1015" pad="36"/>
-<connect gate="G$1" pin="PI013/EXTINT" pad="43"/>
-<connect gate="G$1" pin="RESERVED" pad="6 13 14 15 28 42 51"/>
-<connect gate="G$1" pin="RESET_N" pad="20"/>
-<connect gate="G$1" pin="RF_IN" pad="4"/>
-<connect gate="G$1" pin="RTC_0" pad="18"/>
-<connect gate="G$1" pin="RTC_1" pad="19"/>
-<connect gate="G$1" pin="RXD/MOSI" pad="22"/>
-<connect gate="G$1" pin="SAFEBOOT_N" pad="34"/>
-<connect gate="G$1" pin="SCL/CLK" pad="32"/>
-<connect gate="G$1" pin="SDA/CS" pad="2"/>
-<connect gate="G$1" pin="SQI_G" pad="29 31 46 47"/>
-<connect gate="G$1" pin="SQI_O" pad="30 45"/>
-<connect gate="G$1" pin="TIMEPULSE" pad="33"/>
-<connect gate="G$1" pin="TXD/MISO" pad="21"/>
-<connect gate="G$1" pin="VCC" pad="24 25"/>
-<connect gate="G$1" pin="V_BCKP" pad="16"/>
-<connect gate="G$1" pin="V_CORE" pad="27"/>
-<connect gate="G$1" pin="V_DCDC_OUT" pad="26"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-14251" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="2.2UH_SHIELDED_INDUCTOR" prefix="L">
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0806_NDUC">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -21347,22 +21070,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="DSK-RADIAL-4.8MM">
-<description>&lt;h3&gt;DSK-621 - 6.8mm Radial package for SuperCapacitor&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 10.15mm&lt;/li&gt;
-&lt;li&gt;Area: 6.8mm x 11.7mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=https://media.digikey.com/pdf/Data%20Sheets/Elna%20America%20Inc/DS,DSK.pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="-" x="0" y="-5" dx="4" dy="1.7" layer="1"/>
-<smd name="+" x="0" y="5.15" dx="5" dy="2" layer="1"/>
-<wire x1="-2.5" y1="6.5" x2="2.5" y2="6.5" width="0.127" layer="21"/>
-<text x="0" y="-6.445" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
-<text x="0" y="7.08" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
-<circle x="0" y="0" radius="3.4" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -21374,18 +21081,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="CAP_POL">
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
-<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
-<text x="1.016" y="0.635" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="1.016" y="-4.191" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
-<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
-<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -21429,27 +21124,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="CAP-14106"/>
 <attribute name="VALUE" value="4.7uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name=".22F-SUPERCAP" prefix="C">
-<description>&lt;h3&gt;ELNA DSK-621 - 220mF Electric Double Layer Capacitor (EDLC/SuperCapacitor)&lt;/h3&gt;
-&lt;p&gt;A 220 mF SuperCapacitor. Used for backup power on devices with low standby current&lt;/p&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DSK-RADIAL-4.8MM">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-13907" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -22325,6 +21999,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
+<package name="UNIQUE_0806_NDUC">
+<description>&lt;h3&gt;2.2uH, 1.2A, Shielded 0806 Inductor&lt;/h3&gt;
+
+&lt;p&gt;
+Unique landing pads specified by datasheet. 
+&lt;/p&gt;</description>
+<smd name="1" x="-1.3" y="0" dx="0.8" dy="1.8" layer="1" rot="R90"/>
+<smd name="2" x="1.3" y="0" dx="0.8" dy="1.8" layer="1" rot="R90"/>
+<wire x1="-1" y1="-0.8" x2="-0.5" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="-0.8" x2="0.5" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="0.5" y1="-0.8" x2="1" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1" y1="-0.8" x2="1" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1" y1="0.8" x2="0.5" y2="0.8" width="0.05" layer="51"/>
+<wire x1="0.5" y1="0.8" x2="-0.5" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.8" x2="-1" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-1" y1="0.8" x2="-1" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.08" y1="-0.87" x2="1.08" y2="0.87" width="0.05" layer="39"/>
+<wire x1="1.08" y1="0.87" x2="-1.08" y2="0.87" width="0.05" layer="39"/>
+<wire x1="-1.08" y1="0.87" x2="-1.08" y2="-0.87" width="0.05" layer="39"/>
+<wire x1="-1.08" y1="-0.87" x2="1.08" y2="-0.87" width="0.05" layer="39"/>
+<rectangle x1="-1.01" y1="-0.81" x2="-0.48" y2="0.81" layer="51"/>
+<rectangle x1="0.48" y1="-0.81" x2="1.01" y2="0.82" layer="51"/>
+<text x="-1.27" y="1.27" size="0.381" layer="25">&gt;Name</text>
+<text x="-1.27" y="-1.524" size="0.381" layer="27">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FERRITE_BEAD">
@@ -22340,6 +22039,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
 <wire x1="0.889" y1="2.54" x2="0.889" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="1.143" y1="2.54" x2="1.143" y2="-2.54" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="INDUCTOR">
+<description>&lt;h3&gt;Inductors&lt;/h3&gt;
+&lt;p&gt;Resist changes in electrical current. Basically a coil of wire.&lt;/p&gt;</description>
+<text x="1.27" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -22364,6 +22075,388 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
+<deviceset name="2.2UH_SHIELDED_INDUCTOR" prefix="L">
+<description>&lt;h3&gt;Murata 2.2uH Inductor&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2.2uH&lt;/li&gt;
+&lt;li&gt;1.2A&lt;/li&gt;
+&lt;li&gt;110mOhm&lt;/li&gt;
+&lt;li&gt;0806 Package&lt;/li&gt;
+&lt;li&gt;Shielded&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIQUE_0806_NDUC">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-14257" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Batteries">
+<description>&lt;h3&gt;SparkFun Batteries&lt;/h3&gt;
+This library contains battery clips, connectors, and appropriately sized silk outlines for LiPo batteries. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="ML414H_IV01E">
+<description>&lt;h3&gt;SEIKO ML414H-IV01E Reflowable Lithium Battery&lt;/h3&gt;
+
+&lt;p&gt;
+ML414H is a rechargeable, coin type battery with features
+such as Pb-free reflowable (Peak temperature: 260 C) and
+high temperature heat resistance.
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3V&lt;/li&gt;
+&lt;li&gt;1mAH&lt;/li&gt;
+&lt;li&gt;4.8mm Diamter&lt;/li&gt;
+&lt;/ul&gt;</description>
+<circle x="0" y="0" radius="2.4" width="0.0508" layer="51"/>
+<smd name="-" x="0.6" y="-1.85" dx="4.2" dy="1.7" layer="1" stop="no" cream="no"/>
+<polygon width="0.05" layer="1">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<rectangle x1="-1.5" y1="-2.7" x2="2.7" y2="-1" layer="31"/>
+<rectangle x1="-1.5" y1="-2.7" x2="2.7" y2="-1" layer="29"/>
+<smd name="+" x="2.022" y="2.032" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-1.016" y="2.921" size="0.381" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-3.302" size="0.381" layer="27">&gt;VALUE</text>
+<polygon width="0.02" layer="51">
+<vertex x="-1.1" y="-2.4"/>
+<vertex x="2.4" y="-2.4"/>
+<vertex x="2.4" y="-1.01"/>
+<vertex x="-1.1" y="-1.01"/>
+</polygon>
+<polygon width="0.02" layer="51">
+<vertex x="0.8" y="2.4"/>
+<vertex x="2.4" y="2.4"/>
+<vertex x="2.4" y="0.8"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="BATTERY">
+<description>&lt;h3&gt;Battery (Single-Cell)&lt;/h3&gt;</description>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.4064" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="4.318" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.318" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="-" x="5.08" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
+<pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ML414H_IV01E_BATTERY" prefix="B">
+<description>&lt;h3&gt;SEIKO ML414H-IV01E Reflowable Lithium Battery&lt;/h3&gt;
+
+&lt;p&gt;
+ML414H is a rechargeable, coin type battery with features
+such as Pb-free reflowable (Peak temperature: 260 C) and
+high temperature heat resistance.
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3V&lt;/li&gt;
+&lt;li&gt;1mAH&lt;/li&gt;
+&lt;li&gt;4.8mm Diamter&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ML414H_IV01E">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="BATT-14267" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-GPS">
+<description>&lt;h3&gt;SparkFun GPS, Antennas&lt;/h3&gt;
+This library contains GPS modules, GPS antennas, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="UBLOX_ZOE_M8-0-10">
+<description>&lt;h3&gt;UBLOX ZOE-M8Q-0-10&lt;/h3&gt;
+&lt;p&gt;The ZOE-M8G and ZOE-M8Q are u-blox’s super small, highly integrated GNSS SiP (System in Package) modules
+based on the high performing u-blox M8 concurrent positioning engine. The ultra-miniature form factor integrates
+a complete GNSS receiver including SAW filter, LNA and TCXO. The ZOE-M8Q is
+the 3 V variant.&lt;/p&gt; 
+
+&lt;p&gt;&lt;b&gt;Phyical Characteristics&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LGA&lt;/li&gt;
+&lt;li&gt;51 Pins&lt;/li&gt;
+&lt;li&gt;4.5mm X 4.5mm X 1mm&lt;/li&gt;
+&lt;li&gt;51 Pins&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-2.246" y1="-2.246" x2="2.254" y2="-2.246" width="0.05" layer="51"/>
+<wire x1="2.254" y1="-2.246" x2="2.254" y2="2.254" width="0.05" layer="51"/>
+<wire x1="2.254" y1="2.254" x2="-2.246" y2="2.254" width="0.05" layer="51"/>
+<wire x1="-2.246" y1="2.254" x2="-2.246" y2="-2.246" width="0.05" layer="51"/>
+<circle x="-2.738" y="2.754" radius="0.254" width="0" layer="21"/>
+<text x="-2.246" y="3.135" size="1" layer="25">&gt;NAME</text>
+<text x="-2.373" y="-3.865" size="1" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.996" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="3" x="-0.996" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="4" x="-0.496" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="5" x="0.004" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="6" x="0.504" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="7" x="1.004" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="8" x="1.504" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="9" x="2.004" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<wire x1="-1.746" y1="-2.346" x2="1.754" y2="-2.346" width="0.1" layer="21"/>
+<wire x1="2.354" y1="-1.746" x2="2.354" y2="1.754" width="0.1" layer="21"/>
+<wire x1="-2.346" y1="-1.746" x2="-2.346" y2="1.754" width="0.1" layer="21"/>
+<wire x1="-1.746" y1="2.354" x2="1.754" y2="2.354" width="0.1" layer="21"/>
+<smd name="2" x="-1.496" y="2.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="10" x="2.004" y="1.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="11" x="2.004" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="12" x="2.004" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="13" x="2.004" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="14" x="2.004" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="15" x="2.004" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="16" x="2.004" y="-1.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="17" x="2.004" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="18" x="1.504" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="19" x="1.004" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="20" x="0.504" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="21" x="0.004" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="22" x="-0.496" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="23" x="-0.996" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="24" x="-1.496" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="25" x="-1.996" y="-1.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="26" x="-1.996" y="-1.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="27" x="-1.996" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="28" x="-1.996" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="29" x="-1.996" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="30" x="-1.996" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="31" x="-1.996" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="32" x="-1.996" y="1.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="33" x="-0.996" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="34" x="-0.496" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="35" x="0.004" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="36" x="0.504" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="37" x="1.004" y="1.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="38" x="1.004" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="39" x="1.004" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="40" x="1.004" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="41" x="0.504" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="42" x="0.004" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="43" x="-0.496" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="44" x="-0.996" y="-0.996" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="45" x="-0.996" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="46" x="-0.996" y="0.004" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="47" x="-0.996" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="48" x="-0.496" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="49" x="0.504" y="0.504" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="50" x="0.504" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<smd name="51" x="-0.496" y="-0.496" dx="0.25" dy="0.25" layer="1" roundness="100" stop="no"/>
+<circle x="-1.9965" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="-1.4965" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9965" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="-0.4965" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="0.0035" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="0.5035" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="1.0035" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="1.5035" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="-1.9941" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9965" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="-1.4965" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9965" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="-0.4965" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="0.0035" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="0.5035" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="1.0035" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="1.5035" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="2.0059" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="-1.4961" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="-0.9961" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="-0.4961" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="0.0039" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="0.5039" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="1.0039" radius="0.15" width="0" layer="29"/>
+<circle x="-1.9982" y="1.5039" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="-1.4978" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="-0.9978" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="-0.4978" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="0.0022" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="0.5022" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="1.0022" radius="0.15" width="0" layer="29"/>
+<circle x="2.0035" y="1.5022" radius="0.15" width="0" layer="29"/>
+<circle x="1.0052" y="1.0038" radius="0.15" width="0" layer="29"/>
+<circle x="0.5052" y="1.0038" radius="0.15" width="0" layer="29"/>
+<circle x="0.0052" y="1.0038" radius="0.15" width="0" layer="29"/>
+<circle x="-0.4948" y="1.0038" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9948" y="1.0038" radius="0.15" width="0" layer="29"/>
+<circle x="1.0032" y="-0.9982" radius="0.15" width="0" layer="29"/>
+<circle x="0.5024" y="-0.9966" radius="0.15" width="0" layer="29"/>
+<circle x="0.0027" y="-0.9972" radius="0.15" width="0" layer="29"/>
+<circle x="-0.4964" y="-0.9972" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9973" y="-0.9973" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9952" y="-0.498" radius="0.15" width="0" layer="29"/>
+<circle x="-0.4951" y="-0.4989" radius="0.15" width="0" layer="29"/>
+<circle x="0.5039" y="-0.4989" radius="0.15" width="0" layer="29"/>
+<circle x="1.002" y="-0.4999" radius="0.15" width="0" layer="29"/>
+<circle x="1.0018" y="0.0029" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9983" y="0.0042" radius="0.15" width="0" layer="29"/>
+<circle x="0.501" y="0.5051" radius="0.15" width="0" layer="29"/>
+<circle x="-0.499" y="0.5035" radius="0.15" width="0" layer="29"/>
+<circle x="-0.9973" y="0.5051" radius="0.15" width="0" layer="29"/>
+<wire x1="2.413" y1="-2.413" x2="2.413" y2="2.413" width="0.0508" layer="39"/>
+<wire x1="2.413" y1="2.413" x2="-2.413" y2="2.413" width="0.0508" layer="39"/>
+<wire x1="-2.413" y1="2.413" x2="-2.413" y2="-2.413" width="0.0508" layer="39"/>
+<wire x1="-2.413" y1="-2.413" x2="2.413" y2="-2.413" width="0.0508" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="U-BLOX_ZOE-M8-0-10">
+<description>&lt;h3&gt;UBLOX ZOE-M8-0-10&lt;/h3&gt;
+
+&lt;p&gt;The ZOE-M8G and ZOE-M8Q are u-blox’s super small, highly integrated GNSS SiP (System in Package) modules
+based on the high performing u-blox M8 concurrent positioning engine. The ultra-miniature form factor integrates
+a complete GNSS receiver including SAW filter, LNA and TCXO. ZOE-M8Q is
+the 3 V variant.&lt;/p&gt;</description>
+<wire x1="-15.24" y1="25.4" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-22.86" x2="17.78" y2="25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<pin name="VCC" x="-20.32" y="22.86" length="middle" direction="pwr"/>
+<pin name="GND" x="-20.32" y="-20.32" length="middle" direction="pwr"/>
+<pin name="SDA/CS" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="SCL/CLK" x="22.86" y="20.32" length="middle" rot="R180"/>
+<pin name="D_SEL" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="RXD/MOSI" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="TXD/MISO" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="RTC_0" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="RTC_1" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="TIMEPULSE" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="SAFEBOOT_N" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="LNA_EN" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="P1015" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="P1014" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="PI013/EXTINT" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="RESET_N" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="SQI_G" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<text x="-15.24" y="27.94" size="2.54" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-27.94" size="2.54" layer="96">&gt;Value</text>
+<pin name="RF_IN" x="-20.32" y="5.08" length="middle"/>
+<pin name="V_CORE" x="-20.32" y="17.78" length="middle" direction="pwr"/>
+<pin name="V_DCDC_OUT" x="-20.32" y="15.24" length="middle" direction="pwr"/>
+<pin name="V_BCKP" x="-20.32" y="20.32" length="middle" direction="pwr"/>
+<pin name="SQI_O" x="22.86" y="-17.78" length="middle" direction="nc" rot="R180"/>
+<pin name="RESERVED" x="22.86" y="-20.32" length="middle" direction="nc" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UBLOX_ZOE_M8-0-10" prefix="U">
+<description>&lt;h3&gt;UBLOX ZOE-M8Q-0-10&lt;/h3&gt;
+&lt;p&gt;u-blox ZOE-M8 standard precision GNSS SiP (System in Package) modules feature the high performance u-blox M8
+GNSS engine. ZOE-M8’s ultra-miniature form factor integrates a complete GNSS receiver including SAW filter, LNA
+and TCXO.&lt;/p&gt;
+&lt;p&gt;Handles  all &lt;b&gt;GNSS systems&lt;/b&gt;  and can simulatenously use up to three of them, with accuracy ranging from 2.5m to 4m.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GPS&lt;/li&gt;
+&lt;li&gt;GLONASS&lt;/li&gt;
+&lt;li&gt;BeiDou&lt;/li&gt;
+&lt;li&gt;Galileo&lt;/li&gt;
+&lt;/ul&gt;
+
+This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&gt; augmentation systems.</description>
+<gates>
+<gate name="G$1" symbol="U-BLOX_ZOE-M8-0-10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UBLOX_ZOE_M8-0-10">
+<connects>
+<connect gate="G$1" pin="D_SEL" pad="48"/>
+<connect gate="G$1" pin="GND" pad="1 3 5 7 8 9 10 11 12 17 23 37 38 39 40 41 44 49" route="any"/>
+<connect gate="G$1" pin="LNA_EN" pad="35"/>
+<connect gate="G$1" pin="P1014" pad="50"/>
+<connect gate="G$1" pin="P1015" pad="36"/>
+<connect gate="G$1" pin="PI013/EXTINT" pad="43"/>
+<connect gate="G$1" pin="RESERVED" pad="6 13 14 15 28 42 51"/>
+<connect gate="G$1" pin="RESET_N" pad="20"/>
+<connect gate="G$1" pin="RF_IN" pad="4"/>
+<connect gate="G$1" pin="RTC_0" pad="18"/>
+<connect gate="G$1" pin="RTC_1" pad="19"/>
+<connect gate="G$1" pin="RXD/MOSI" pad="22"/>
+<connect gate="G$1" pin="SAFEBOOT_N" pad="34"/>
+<connect gate="G$1" pin="SCL/CLK" pad="32"/>
+<connect gate="G$1" pin="SDA/CS" pad="2"/>
+<connect gate="G$1" pin="SQI_G" pad="29 31 46 47"/>
+<connect gate="G$1" pin="SQI_O" pad="30 45"/>
+<connect gate="G$1" pin="TIMEPULSE" pad="33"/>
+<connect gate="G$1" pin="TXD/MISO" pad="21"/>
+<connect gate="G$1" pin="VCC" pad="24 25"/>
+<connect gate="G$1" pin="V_BCKP" pad="16"/>
+<connect gate="G$1" pin="V_CORE" pad="27"/>
+<connect gate="G$1" pin="V_DCDC_OUT" pad="26"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14251" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -22379,7 +22472,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
-<part name="U1" library="temp" deviceset="UBLOX_ZOE_M8-0-10" device=""/>
+<part name="U1" library="SparkFun-GPS" deviceset="UBLOX_ZOE_M8-0-10" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
@@ -22420,14 +22513,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset=".22F-SUPERCAP" device=""/>
 <part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD-120_OHM" device="-0402"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="10OHM" device="-0603-1/10W-1%" value="10"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="47PF" device="-0603-50V-5%" value="47pF"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="L1" library="temp" deviceset="2.2UH_SHIELDED_INDUCTOR" device=""/>
+<part name="B1" library="SparkFun-Batteries" deviceset="ML414H_IV01E_BATTERY" device=""/>
+<part name="L2" library="SparkFun-Coils" deviceset="2.2UH_SHIELDED_INDUCTOR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22510,11 +22603,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND9" gate="1" x="93.98" y="167.64" smashed="yes">
 <attribute name="VALUE" x="93.98" y="167.386" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND10" gate="1" x="60.96" y="43.18" smashed="yes">
-<attribute name="VALUE" x="60.96" y="42.926" size="1.778" layer="96" align="top-center"/>
+<instance part="GND10" gate="1" x="60.96" y="35.56" smashed="yes">
+<attribute name="VALUE" x="60.96" y="35.306" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="198.12" y="88.9" smashed="yes">
-<attribute name="VALUE" x="198.12" y="91.694" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="195.58" y="86.36" smashed="yes">
+<attribute name="VALUE" x="195.58" y="89.154" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J3" gate="G$1" x="238.76" y="76.2" smashed="yes">
 <attribute name="VALUE" x="236.22" y="66.294" size="1.778" layer="96" font="vector"/>
@@ -22576,10 +22669,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="JP4" gate="G$1" x="327.66" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="335.28" y="182.88" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="C2" gate="G$1" x="60.96" y="53.34" smashed="yes">
-<attribute name="NAME" x="61.976" y="53.975" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="61.976" y="49.149" size="1.778" layer="96" font="vector"/>
-</instance>
 <instance part="FB1" gate="G$1" x="218.44" y="200.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="220.472" y="204.47" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
@@ -22600,8 +22689,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY9" gate="G$1" x="226.06" y="215.9" smashed="yes">
 <attribute name="VALUE" x="226.06" y="218.694" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="L1" gate="G$1" x="38.1" y="210.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.37" y="209.804" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="B1" gate="G$1" x="60.96" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="63.5" y="52.578" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="76.2" y="46.482" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="L2" gate="G$1" x="38.1" y="210.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="38.862" y="209.804" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="41.656" y="205.486" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -22627,8 +22721,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="60.96" y1="45.72" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="-"/>
+<wire x1="60.96" y1="38.1" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -22678,8 +22772,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="76.2" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="76.2" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="76.2" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="76.2" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -22718,8 +22812,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="193.04" y1="78.74" x2="205.74" y2="78.74" width="0.1524" layer="91"/>
-<label x="205.74" y="78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="193.04" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
+<label x="198.12" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="5"/>
@@ -22741,8 +22835,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="205.74" y1="81.28" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
-<label x="205.74" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="81.28" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
+<label x="198.12" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -22754,7 +22848,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U1" gate="G$1" pin="V_DCDC_OUT"/>
 <wire x1="45.72" y1="210.82" x2="43.18" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -22766,7 +22860,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="210.82" x2="27.94" y2="203.2" width="0.1524" layer="91"/>
 <junction x="27.94" y="210.82"/>
-<pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
@@ -22784,7 +22878,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="60.96" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="V_BATT"/>
 <wire x1="71.12" y1="58.42" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="B1" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="TXO/MISO" class="0">
