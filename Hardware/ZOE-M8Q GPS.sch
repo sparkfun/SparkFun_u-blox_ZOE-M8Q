@@ -21070,6 +21070,60 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="0402">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="CAP-PTH-SMALL-KIT">
+<description>&lt;h3&gt;CAP-PTH-SMALL-KIT&lt;/h3&gt;
+Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-2.667" y1="1.27" x2="2.667" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.667" y1="1.27" x2="2.667" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="2.667" y1="-1.27" x2="-2.667" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-2.667" y1="-1.27" x2="-2.667" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<pad name="2" x="1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<polygon width="0.127" layer="30">
+<vertex x="-1.4021" y="-0.9475" curve="-90"/>
+<vertex x="-2.357" y="-0.0178" curve="-90.011749"/>
+<vertex x="-1.4046" y="0.9576" curve="-90"/>
+<vertex x="-0.4546" y="-0.0204" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-1.4046" y="-0.4395" curve="-90.012891"/>
+<vertex x="-1.8491" y="-0.0153" curve="-90"/>
+<vertex x="-1.4046" y="0.452" curve="-90"/>
+<vertex x="-0.9627" y="-0.0051" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="1.397" y="-0.9475" curve="-90"/>
+<vertex x="0.4421" y="-0.0178" curve="-90.011749"/>
+<vertex x="1.3945" y="0.9576" curve="-90"/>
+<vertex x="2.3445" y="-0.0204" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="1.3945" y="-0.4395" curve="-90.012891"/>
+<vertex x="0.95" y="-0.0153" curve="-90"/>
+<vertex x="1.3945" y="0.452" curve="-90"/>
+<vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -21145,6 +21199,75 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="CAP-08913"/>
 <attribute name="VALUE" value="47pF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.1UF" prefix="C">
+<description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402-16V-10%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12416"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-25V-(+80/-20%)" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00810"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-25V-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08604"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-KIT-EZ-50V-20%" package="CAP-PTH-SMALL-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08370"/>
+<attribute name="VALUE" value="0.1uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-100V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08390"/>
+<attribute name="VALUE" value="0.1uF"/>
 </technology>
 </technologies>
 </device>
@@ -22521,6 +22644,7 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="B1" library="SparkFun-Batteries" deviceset="ML414H_IV01E_BATTERY" device=""/>
 <part name="L2" library="SparkFun-Coils" deviceset="2.2UH_SHIELDED_INDUCTOR" device=""/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -22582,8 +22706,8 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <attribute name="NAME" x="104.648" y="204.724" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="113.284" y="206.502" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="43.18" y="220.98" smashed="yes">
-<attribute name="VALUE" x="43.18" y="223.774" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="40.64" y="220.98" smashed="yes">
+<attribute name="VALUE" x="40.64" y="223.774" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND3" gate="1" x="195.58" y="68.58" smashed="yes">
 <attribute name="VALUE" x="195.58" y="68.326" size="1.778" layer="96" align="top-center"/>
@@ -22591,17 +22715,17 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <instance part="SUPPLY5" gate="G$1" x="386.08" y="241.3" smashed="yes">
 <attribute name="VALUE" x="386.08" y="244.094" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND8" gate="1" x="38.1" y="167.64" smashed="yes">
-<attribute name="VALUE" x="38.1" y="167.386" size="1.778" layer="96" align="top-center"/>
+<instance part="GND8" gate="1" x="43.18" y="170.18" smashed="yes">
+<attribute name="VALUE" x="43.18" y="169.926" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND1" gate="1" x="27.94" y="167.64" smashed="yes">
-<attribute name="VALUE" x="27.94" y="167.386" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="27.94" y="170.18" smashed="yes">
+<attribute name="VALUE" x="27.94" y="169.926" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="35.56" y="220.98" smashed="yes">
-<attribute name="VALUE" x="35.56" y="223.774" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="33.02" y="220.98" smashed="yes">
+<attribute name="VALUE" x="33.02" y="223.774" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND9" gate="1" x="93.98" y="167.64" smashed="yes">
-<attribute name="VALUE" x="93.98" y="167.386" size="1.778" layer="96" align="top-center"/>
+<instance part="GND9" gate="1" x="93.98" y="170.18" smashed="yes">
+<attribute name="VALUE" x="93.98" y="169.926" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND10" gate="1" x="60.96" y="35.56" smashed="yes">
 <attribute name="VALUE" x="60.96" y="35.306" size="1.778" layer="96" align="top-center"/>
@@ -22693,9 +22817,13 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <attribute name="NAME" x="63.5" y="52.578" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="76.2" y="46.482" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="L2" gate="G$1" x="38.1" y="210.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.862" y="209.804" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="41.656" y="205.486" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="L2" gate="G$1" x="35.56" y="210.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.322" y="209.804" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="39.116" y="205.486" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+</instance>
+<instance part="C2" gate="G$1" x="43.18" y="190.5" smashed="yes">
+<attribute name="NAME" x="44.704" y="193.421" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="44.704" y="188.341" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -22705,19 +22833,22 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="45.72" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="175.26" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="175.26" x2="43.18" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="175.26" x2="43.18" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="187.96" x2="43.18" y2="175.26" width="0.1524" layer="91"/>
+<junction x="43.18" y="175.26"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="27.94" y1="195.58" x2="27.94" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="195.58" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SQI_G"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="88.9" y1="180.34" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="180.34" x2="93.98" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="180.34" x2="93.98" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -22768,7 +22899,11 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="45.72" y1="218.44" x2="43.18" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<wire x1="43.18" y1="220.98" x2="43.18" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="218.44" x2="40.64" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="220.98" x2="40.64" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="218.44" x2="43.18" y2="195.58" width="0.1524" layer="91"/>
+<junction x="43.18" y="218.44"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -22847,13 +22982,13 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="N$7" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="V_DCDC_OUT"/>
-<wire x1="45.72" y1="210.82" x2="43.18" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="210.82" x2="40.64" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="33.02" y1="210.82" x2="27.94" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="210.82" x2="27.94" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="210.82" x2="27.94" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="V_CORE"/>
 <wire x1="27.94" y1="213.36" x2="45.72" y2="213.36" width="0.1524" layer="91"/>
@@ -22867,8 +23002,8 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <segment>
 <pinref part="U1" gate="G$1" pin="V_BCKP"/>
 <pinref part="SUPPLY6" gate="G$1" pin="V_BATT"/>
-<wire x1="45.72" y1="215.9" x2="35.56" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="215.9" x2="35.56" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="215.9" x2="33.02" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="215.9" x2="33.02" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="55.88" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
@@ -23025,8 +23160,8 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="ANT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RF_IN"/>
-<wire x1="45.72" y1="200.66" x2="43.18" y2="200.66" width="0.1524" layer="91"/>
-<label x="43.18" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="45.72" y1="200.66" x2="40.64" y2="200.66" width="0.1524" layer="91"/>
+<label x="40.64" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="SIGNAL"/>
