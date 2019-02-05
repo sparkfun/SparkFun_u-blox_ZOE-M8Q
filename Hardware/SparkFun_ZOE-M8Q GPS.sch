@@ -22348,6 +22348,8 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 Battery Charge Rate: 1mA MAX
 Voff: 2.0V
 72 hours charge time from 2.0-3.1V</text>
+<text x="33.02" y="167.64" size="2.032" layer="97" font="vector">VCC Range: 1.89 - 3.6V</text>
+<text x="96.52" y="154.94" size="2.032" layer="97" font="vector">I2C Address: 0x42</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="45.72" y="132.08" smashed="yes">
