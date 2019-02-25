@@ -22327,7 +22327,7 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <sheets>
 <sheet>
 <plain>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="167.64" y="10.16" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 <text x="5.08" y="175.26" size="5.08" layer="94" font="vector" ratio="12">uBlox ZOE-M8Q-0-10</text>
 <text x="5.08" y="88.9" size="5.08" layer="94" font="vector" ratio="12">Battery</text>
