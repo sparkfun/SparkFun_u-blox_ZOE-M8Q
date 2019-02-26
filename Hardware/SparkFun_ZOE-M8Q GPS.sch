@@ -22759,7 +22759,7 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <label x="195.58" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="SAFEBOOT" class="0">
+<net name="!SAFEBOOT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!SAFEBOOT"/>
 <wire x1="68.58" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
@@ -22771,7 +22771,7 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <label x="195.58" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="RESET" class="0">
+<net name="!RESET" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RESET"/>
 <wire x1="68.58" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
