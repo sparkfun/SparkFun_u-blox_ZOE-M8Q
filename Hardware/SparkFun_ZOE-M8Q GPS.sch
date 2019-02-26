@@ -22344,10 +22344,12 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <wire x1="129.54" y1="114.3" x2="248.92" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="68.58" y1="99.06" x2="68.58" y2="0" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="129.54" y1="99.06" x2="129.54" y2="0" width="0.1524" layer="97" style="shortdash"/>
-<text x="35.56" y="60.96" size="1.27" layer="97" font="vector">Battery Initial Charge: 2.3-2.8V
-Battery Charge Rate: 1mA MAX
-Voff: 2.0V
-72 hours charge time from 2.0-3.1V</text>
+<text x="33.02" y="60.96" size="1.27" layer="97" font="vector">*Battery Initial Charge: 2.3-2.8V
+*Intial Battery Capacity (maH): 
+    800mAH or Greater
+*Battery Charge Rate: 1mA MAX
+*Voff: 2.0V
+*72 hours charge time from 2.0-3.1V</text>
 <text x="33.02" y="167.64" size="2.032" layer="97" font="vector">VCC Range: 1.89 - 3.6V</text>
 <text x="96.52" y="154.94" size="2.032" layer="97" font="vector">I2C Address: 0x42</text>
 </plain>
