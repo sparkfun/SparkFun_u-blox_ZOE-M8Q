@@ -1,11 +1,11 @@
 SparkFun u-Blox ZOE-M8
 ========================================
 
-![SparkFun u-Blox]()
+[![SparkFun u-Blox ZOE-M8Q](https://cdn.sparkfun.com/assets/parts/1/3/6/1/4/15193-SparkFun_GPS_Breakout_-_U.FL__ZOE-M8__Qwiic_-01.jpg)](https://www.sparkfun.com/products/15193)
 
-[*SparkFun u-Blox ZOE-M8 (GPS-15193)*](https://www.sparkfun.com/products/15193)
+[*SparkFun u-Blox ZOE-M8Q (GPS-15193)*](https://www.sparkfun.com/products/15193)
 
-<Basic description of the part.>
+The ZOE-M8 is a high quality GPS with equally impressive configurability.  We broke out the basic pins and added all the supporting circuitry to make this module even easier to use.  
 
 Repository Contents
 -------------------
@@ -18,7 +18,7 @@ Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library)** -
   Library used with the SparkFun ZOE-M8Q 
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-zoe-m8q-and-sam-m8q-hookup-guide)** - Basic hookup guide for the SparkFun ZOE-M8Q.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-breakout-zoe-m8q-and-sam-m8q-hookup-guide)** - Basic hookup guide for the SparkFun ZOE-M8Q.
 
 License Information
 -------------------
