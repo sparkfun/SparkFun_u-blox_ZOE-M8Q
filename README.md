@@ -1,9 +1,9 @@
-SparkFun u-Blox ZOE-M8Q
+SparkFun u-blox ZOE-M8Q
 ========================================
 
-[![SparkFun u-Blox ZOE-M8Q](https://cdn.sparkfun.com/assets/parts/1/3/6/1/4/15193-SparkFun_GPS_Breakout_-_U.FL__ZOE-M8__Qwiic_-01.jpg)](https://www.sparkfun.com/products/15193)
+[![SparkFun u-blox ZOE-M8Q](https://cdn.sparkfun.com/assets/parts/1/3/6/1/4/15193-SparkFun_GPS_Breakout_-_U.FL__ZOE-M8__Qwiic_-01.jpg)](https://www.sparkfun.com/products/15193)
 
-[*SparkFun u-Blox ZOE-M8Q (GPS-15193)*](https://www.sparkfun.com/products/15193)
+[*SparkFun u-blox ZOE-M8Q (GPS-15193)*](https://www.sparkfun.com/products/15193)
 
 The ZOE-M8Q is a high quality GPS with equally impressive configurability.  We broke out the basic pins and added all the supporting circuitry to make this module even easier to use.  
 
