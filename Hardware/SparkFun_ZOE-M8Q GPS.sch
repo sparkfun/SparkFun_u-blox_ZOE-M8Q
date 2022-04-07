@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22253,38 +22253,38 @@ based on the high performing u-blox M8 concurrent positioning engine. The ultra-
 a complete GNSS receiver including SAW filter, LNA and TCXO. ZOE-M8Q is
 the 3 V variant.&lt;/p&gt;</description>
 <wire x1="-15.24" y1="25.4" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-22.86" x2="17.78" y2="25.4" width="0.254" layer="94"/>
-<wire x1="17.78" y1="25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
-<pin name="VCC" x="-20.32" y="22.86" length="middle" direction="pwr"/>
-<pin name="GND" x="-20.32" y="-20.32" length="middle" direction="pwr"/>
-<pin name="SDA/CS" x="22.86" y="22.86" length="middle" rot="R180"/>
-<pin name="SCL/CLK" x="22.86" y="20.32" length="middle" rot="R180"/>
-<pin name="D_SEL" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="RXD/MOSI" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="TXD/MISO" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="RTC_0" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="RTC_1" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="TIMEPULSE" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="!SAFEBOOT" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="LNA_EN" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="P1015" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="P1014" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="PI013/!EXTINT" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="!RESET" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="SQI_G" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="-22.86" x2="15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-22.86" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<pin name="VCC" x="-17.78" y="22.86" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="-17.78" y="-20.32" visible="pin" length="short" direction="pwr"/>
+<pin name="SDA/CS" x="17.78" y="22.86" visible="pin" length="short" rot="R180"/>
+<pin name="SCL/CLK" x="17.78" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="D_SEL" x="17.78" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="RXD/MOSI" x="17.78" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="TXD/MISO" x="17.78" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="RTC_0" x="17.78" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="RTC_1" x="17.78" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="TIMEPULSE" x="17.78" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="!SAFEBOOT" x="17.78" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="LNA_EN" x="17.78" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="P1015" x="17.78" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="P1014" x="17.78" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="PI013/!EXTINT" x="17.78" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="!RESET" x="17.78" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="SQI_G" x="17.78" y="-15.24" visible="pin" length="short" rot="R180"/>
 <text x="-15.24" y="27.94" size="2.54" layer="95">&gt;NAME</text>
 <text x="-15.24" y="-27.94" size="2.54" layer="96">&gt;Value</text>
-<pin name="RF_IN" x="-20.32" y="5.08" length="middle"/>
-<pin name="V_CORE" x="-20.32" y="17.78" length="middle" direction="pwr"/>
-<pin name="V_DCDC_OUT" x="-20.32" y="15.24" length="middle" direction="pwr"/>
-<pin name="V_BCKP" x="-20.32" y="20.32" length="middle" direction="pwr"/>
-<pin name="SQI_O" x="22.86" y="-17.78" length="middle" direction="nc" rot="R180"/>
-<pin name="NC" x="22.86" y="-20.32" length="middle" direction="nc" rot="R180"/>
+<pin name="RF_IN" x="-17.78" y="5.08" visible="pin" length="short"/>
+<pin name="V_CORE" x="-17.78" y="17.78" visible="pin" length="short" direction="pwr"/>
+<pin name="V_DCDC_OUT" x="-17.78" y="15.24" visible="pin" length="short" direction="pwr"/>
+<pin name="V_BCKP" x="-17.78" y="20.32" visible="pin" length="short" direction="pwr"/>
+<pin name="SQI_O" x="17.78" y="-17.78" visible="pin" length="short" direction="nc" rot="R180"/>
+<pin name="NC" x="17.78" y="-20.32" visible="pin" length="short" direction="nc" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="UBLOX_ZOE_M8-0-10" prefix="U">
+<deviceset name="U-BLOX_ZOE_M8Q-0-10" prefix="U">
 <description>&lt;h3&gt;UBLOX ZOE-M8Q-0-10&lt;/h3&gt;
 &lt;p&gt;u-blox ZOE-M8 standard precision GNSS SiP (System in Package) modules feature the high performance u-blox M8
 GNSS engine. ZOE-M8’s ultra-miniature form factor integrates a complete GNSS receiver including SAW filter, LNA
@@ -22350,7 +22350,7 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun-GPS" deviceset="UBLOX_ZOE_M8-0-10" device=""/>
+<part name="U1" library="SparkFun-GPS" deviceset="U-BLOX_ZOE_M8Q-0-10" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
@@ -22408,14 +22408,14 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <plain>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="167.64" y="10.16" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="5.08" y="175.26" size="5.08" layer="94" font="vector" ratio="12">uBlox ZOE-M8Q-0-10</text>
-<text x="5.08" y="88.9" size="5.08" layer="94" font="vector" ratio="12">Battery</text>
-<text x="134.62" y="104.14" size="5.08" layer="94" font="vector" ratio="12">Connectors</text>
-<text x="134.62" y="175.26" size="5.08" layer="94" font="vector" ratio="12">Jumpers</text>
+<text x="58.42" y="177.8" size="2.54" layer="94" font="vector" ratio="12" align="center">GPS Module: u-blox ZOE-M8Q-0-10</text>
+<text x="33.02" y="91.44" size="2.54" layer="94" font="vector" ratio="12" align="center">Battery</text>
+<text x="190.5" y="106.68" size="2.54" layer="94" font="vector" ratio="12" align="center">Connectors</text>
+<text x="185.42" y="177.8" size="2.54" layer="94" font="vector" ratio="12" align="center">Jumpers</text>
 <text x="157.48" y="154.94" size="2.54" layer="97" font="vector">Close Jumper for SPI</text>
 <text x="226.06" y="152.4" size="2.54" layer="97" font="vector">I2C Pull ups</text>
 <text x="144.78" y="129.54" size="2.54" layer="97" font="vector">Cut trace to disconnect LED</text>
-<text x="73.66" y="88.9" size="5.08" layer="94" font="vector" ratio="12">Antenna</text>
+<text x="99.06" y="91.44" size="2.54" layer="94" font="vector" ratio="12" align="center">u.FL Connector</text>
 <wire x1="0" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="68.58" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="129.54" y1="99.06" x2="129.54" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
@@ -22427,13 +22427,13 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 *Battery Charge Rate: 1mA MAX
 *Voff: 2.0V
 *72 hours charge time from 2.0-3.1V</text>
-<text x="33.02" y="167.64" size="2.032" layer="97" font="vector">VCC Range: 1.89 - 3.6V</text>
-<text x="96.52" y="154.94" size="2.032" layer="97" font="vector">I2C Address: 0x42</text>
+<text x="48.26" y="167.64" size="2.032" layer="97" font="vector">VCC Range: 1.89 - 3.6V</text>
+<text x="48.26" y="164.084" size="2.032" layer="97" font="vector">I2C Address: 0x42</text>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="45.72" y="132.08" smashed="yes">
-<attribute name="NAME" x="30.48" y="160.02" size="2.54" layer="95"/>
-<attribute name="VALUE" x="30.48" y="104.14" size="2.54" layer="96"/>
+<instance part="U1" gate="G$1" x="60.96" y="132.08" smashed="yes">
+<attribute name="NAME" x="45.72" y="160.02" size="2.54" layer="95" font="vector"/>
+<attribute name="VALUE" x="45.72" y="104.14" size="2.54" layer="96" font="vector"/>
 </instance>
 <instance part="J1" gate="G$1" x="152.4" y="76.2" smashed="yes">
 <attribute name="VALUE" x="147.32" y="70.866" size="1.778" layer="96" font="vector" align="top-left"/>
@@ -22451,43 +22451,43 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <attribute name="NAME" x="218.44" y="145.161" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J4" gate="G$1" x="81.28" y="43.18" smashed="yes">
-<attribute name="NAME" x="83.82" y="38.1" size="1.778" layer="95"/>
-<attribute name="VALUE" x="83.82" y="35.56" size="1.778" layer="96"/>
+<attribute name="NAME" x="83.82" y="38.1" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="83.82" y="35.56" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C1" gate="G$1" x="7.62" y="134.62" smashed="yes">
-<attribute name="NAME" x="9.144" y="137.541" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="9.144" y="132.461" size="1.778" layer="96" font="vector"/>
+<instance part="C1" gate="G$1" x="22.86" y="134.62" smashed="yes">
+<attribute name="NAME" x="24.384" y="137.541" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="24.384" y="132.461" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Y1" gate="G$1" x="86.36" y="139.7" smashed="yes" rot="MR90">
-<attribute name="NAME" x="84.328" y="141.224" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="92.964" y="143.002" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="Y1" gate="G$1" x="96.52" y="139.7" smashed="yes" rot="MR90">
+<attribute name="NAME" x="94.488" y="141.224" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="103.124" y="143.002" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="20.32" y="157.48" smashed="yes">
-<attribute name="VALUE" x="20.32" y="160.274" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="35.56" y="157.48" smashed="yes">
+<attribute name="VALUE" x="35.56" y="160.274" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND3" gate="1" x="162.56" y="68.58" smashed="yes">
-<attribute name="VALUE" x="162.56" y="68.326" size="1.778" layer="96" align="top-center"/>
+<attribute name="VALUE" x="162.56" y="68.326" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="220.98" y="157.48" smashed="yes">
-<attribute name="VALUE" x="220.98" y="160.274" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="220.98" y="160.274" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND8" gate="1" x="22.86" y="106.68" smashed="yes">
-<attribute name="VALUE" x="22.86" y="106.426" size="1.778" layer="96" align="top-center"/>
+<instance part="GND8" gate="1" x="38.1" y="106.68" smashed="yes">
+<attribute name="VALUE" x="38.1" y="106.426" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND1" gate="1" x="7.62" y="106.68" smashed="yes">
-<attribute name="VALUE" x="7.62" y="106.426" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="22.86" y="106.68" smashed="yes">
+<attribute name="VALUE" x="22.86" y="106.426" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="12.7" y="157.48" smashed="yes">
-<attribute name="VALUE" x="12.7" y="160.274" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="27.94" y="157.48" smashed="yes">
+<attribute name="VALUE" x="27.94" y="160.274" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND9" gate="1" x="73.66" y="106.68" smashed="yes">
-<attribute name="VALUE" x="73.66" y="106.426" size="1.778" layer="96" align="top-center"/>
+<instance part="GND9" gate="1" x="88.9" y="106.68" smashed="yes">
+<attribute name="VALUE" x="88.9" y="106.426" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND10" gate="1" x="20.32" y="27.94" smashed="yes">
-<attribute name="VALUE" x="20.32" y="27.686" size="1.778" layer="96" align="top-center"/>
+<attribute name="VALUE" x="20.32" y="27.686" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="162.56" y="86.36" smashed="yes">
-<attribute name="VALUE" x="162.56" y="89.154" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="162.56" y="89.154" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="J3" gate="G$1" x="218.44" y="78.74" smashed="yes">
 <attribute name="VALUE" x="215.9" y="68.834" size="1.778" layer="96" font="vector"/>
@@ -22506,10 +22506,10 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <attribute name="VALUE" x="21.844" y="53.34" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="30.48" y="71.12" smashed="yes">
-<attribute name="VALUE" x="30.48" y="73.914" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="30.48" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="20.32" y="71.12" smashed="yes">
-<attribute name="VALUE" x="20.32" y="73.914" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="20.32" y="73.914" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="FD1" gate="G$1" x="241.3" y="30.48" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="238.76" y="27.94" smashed="yes"/>
@@ -22521,13 +22521,13 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <attribute name="NAME" x="170.18" y="149.86" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND2" gate="1" x="180.34" y="142.24" smashed="yes">
-<attribute name="VALUE" x="180.34" y="141.986" size="1.778" layer="96" align="top-center"/>
+<attribute name="VALUE" x="180.34" y="141.986" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="228.6" y="93.98" smashed="yes">
-<attribute name="VALUE" x="228.6" y="96.774" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="228.6" y="96.774" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND4" gate="1" x="226.06" y="68.58" smashed="yes">
-<attribute name="VALUE" x="226.06" y="68.326" size="1.778" layer="96" align="top-center"/>
+<attribute name="VALUE" x="226.06" y="68.326" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="152.4" y="33.02" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="236.22" y="45.72" smashed="yes"/>
@@ -22541,10 +22541,10 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <attribute name="VALUE" x="143.764" y="154.94" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="142.24" y="162.56" smashed="yes">
-<attribute name="VALUE" x="142.24" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="142.24" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND5" gate="1" x="142.24" y="121.92" smashed="yes">
-<attribute name="VALUE" x="142.24" y="121.666" size="1.778" layer="96" align="top-center"/>
+<attribute name="VALUE" x="142.24" y="121.666" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="JP4" gate="G$1" x="142.24" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="149.86" y="134.62" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -22561,25 +22561,25 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <attribute name="VALUE" x="105.664" y="33.401" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND6" gate="1" x="81.28" y="27.94" smashed="yes">
-<attribute name="VALUE" x="81.28" y="27.686" size="1.778" layer="96" align="top-center"/>
+<attribute name="VALUE" x="81.28" y="27.686" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND7" gate="1" x="104.14" y="27.94" smashed="yes">
-<attribute name="VALUE" x="104.14" y="27.686" size="1.778" layer="96" align="top-center"/>
+<attribute name="VALUE" x="104.14" y="27.686" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="104.14" y="58.42" smashed="yes">
-<attribute name="VALUE" x="104.14" y="61.214" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="104.14" y="61.214" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="B1" gate="G$1" x="20.32" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.86" y="39.878" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="35.56" y="33.782" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="L2" gate="G$1" x="15.24" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.002" y="146.304" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="18.796" y="141.986" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="L2" gate="G$1" x="30.48" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.242" y="146.304" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="34.036" y="141.986" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="22.86" y="127" smashed="yes">
-<attribute name="NAME" x="24.384" y="129.921" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="24.384" y="124.841" size="1.778" layer="96" font="vector"/>
+<instance part="C2" gate="G$1" x="38.1" y="127" smashed="yes">
+<attribute name="NAME" x="39.624" y="129.921" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="39.624" y="124.841" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0" smashed="yes">
@@ -22598,22 +22598,22 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="25.4" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="111.76" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="111.76" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="111.76" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="124.46" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
-<junction x="22.86" y="111.76"/>
+<wire x1="38.1" y1="124.46" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
+<junction x="38.1" y="111.76"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="7.62" y1="132.08" x2="7.62" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="132.08" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SQI_G"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="68.58" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="116.84" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="116.84" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -22662,13 +22662,13 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="25.4" y1="154.94" x2="22.86" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="154.94" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<wire x1="22.86" y1="154.94" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="157.48" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="157.48" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="154.94" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
-<junction x="22.86" y="154.94"/>
+<wire x1="38.1" y1="154.94" x2="38.1" y2="132.08" width="0.1524" layer="91"/>
+<junction x="38.1" y="154.94"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -22701,24 +22701,24 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="SDA/CS" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<label x="208.28" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="208.28" y="129.54" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="228.6" y1="134.62" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="129.54" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SDA/CS"/>
-<wire x1="68.58" y1="154.94" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
-<label x="71.12" y="154.94" size="1.27" layer="95" xref="yes"/>
+<wire x1="78.74" y1="154.94" x2="81.28" y2="154.94" width="0.1524" layer="91"/>
+<label x="81.28" y="154.94" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="160.02" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<label x="165.1" y="78.74" size="1.27" layer="95" xref="yes"/>
+<label x="165.1" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="8"/>
 <wire x1="223.52" y1="88.9" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
-<label x="231.14" y="88.9" size="1.27" layer="95" ratio="15" xref="yes"/>
+<label x="231.14" y="88.9" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
 </segment>
 </net>
 <net name="SCL/CLK" class="0">
@@ -22726,17 +22726,17 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="137.16" x2="213.36" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="132.08" x2="208.28" y2="132.08" width="0.1524" layer="91"/>
-<label x="208.28" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="208.28" y="132.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SCL/CLK"/>
-<wire x1="68.58" y1="152.4" x2="71.12" y2="152.4" width="0.1524" layer="91"/>
-<label x="71.12" y="152.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="78.74" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
+<label x="81.28" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="165.1" y1="81.28" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
-<label x="165.1" y="81.28" size="1.27" layer="95" xref="yes"/>
+<label x="165.1" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="7"/>
@@ -22747,19 +22747,19 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="N$7" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="V_DCDC_OUT"/>
-<wire x1="25.4" y1="147.32" x2="20.32" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<wire x1="10.16" y1="147.32" x2="7.62" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="147.32" x2="7.62" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="147.32" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="147.32" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="V_CORE"/>
-<wire x1="7.62" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="147.32" x2="7.62" y2="139.7" width="0.1524" layer="91"/>
-<junction x="7.62" y="147.32"/>
+<wire x1="22.86" y1="147.32" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
+<junction x="22.86" y="147.32"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -22767,8 +22767,8 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <segment>
 <pinref part="U1" gate="G$1" pin="V_BCKP"/>
 <pinref part="SUPPLY6" gate="G$1" pin="V_BATT"/>
-<wire x1="25.4" y1="152.4" x2="12.7" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="152.4" x2="12.7" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="152.4" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="43.18" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
@@ -22784,20 +22784,20 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="TXO/MISO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="TXD/MISO"/>
-<wire x1="68.58" y1="147.32" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
-<label x="71.12" y="147.32" size="1.27" layer="95" xref="yes"/>
+<wire x1="78.74" y1="147.32" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
+<label x="81.28" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="73.66" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
-<label x="231.14" y="73.66" size="1.27" layer="95" xref="yes"/>
+<label x="231.14" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="D_SEL" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="D_SEL"/>
-<wire x1="68.58" y1="144.78" x2="71.12" y2="144.78" width="0.1524" layer="91"/>
-<label x="71.12" y="144.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="78.74" y1="144.78" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
+<label x="81.28" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
@@ -22808,28 +22808,28 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="N$13" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RTC_0"/>
-<wire x1="68.58" y1="139.7" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="139.7" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="139.7" x2="91.44" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="139.7" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="144.78" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="144.78" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="144.78" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="Y1" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="137.16" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="137.16" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="RTC_1"/>
-<wire x1="68.58" y1="137.16" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="137.16" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="137.16" x2="91.44" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="137.16" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="134.62" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TIMEPULSE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="TIMEPULSE"/>
-<wire x1="68.58" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
-<label x="71.12" y="127" size="1.27" layer="95" xref="yes"/>
+<wire x1="78.74" y1="127" x2="81.28" y2="127" width="0.1524" layer="91"/>
+<label x="81.28" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
@@ -22840,8 +22840,8 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="!SAFEBOOT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!SAFEBOOT"/>
-<wire x1="68.58" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
-<label x="71.12" y="124.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="78.74" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
+<label x="81.28" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="4"/>
@@ -22852,8 +22852,8 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="!RESET" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!RESET"/>
-<wire x1="68.58" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
-<label x="71.12" y="119.38" size="1.27" layer="95" xref="yes"/>
+<wire x1="78.74" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
+<label x="81.28" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
@@ -22871,13 +22871,13 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="RXI/MOSI" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RXD/MOSI"/>
-<wire x1="68.58" y1="149.86" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
-<label x="71.12" y="149.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="78.74" y1="149.86" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
+<label x="81.28" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="223.52" y1="76.2" x2="231.14" y2="76.2" width="0.1524" layer="91"/>
-<label x="231.14" y="76.2" size="1.27" layer="95" xref="yes"/>
+<label x="231.14" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -22913,8 +22913,8 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="ANT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RF_IN"/>
-<wire x1="25.4" y1="137.16" x2="20.32" y2="137.16" width="0.1524" layer="91"/>
-<label x="20.32" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="43.18" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<label x="35.56" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="SIGNAL"/>
@@ -22923,7 +22923,7 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <wire x1="88.9" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="48.26" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
 <junction x="88.9" y="43.18"/>
-<label x="86.36" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="86.36" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="88.9" y1="48.26" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -22941,8 +22941,8 @@ This can be corrected with the &lt;b&gt;SBAS&lt;/b&gt; or &lt;b&gt;QZSS &lt;/b&g
 <net name="!INT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PI013/!EXTINT"/>
-<wire x1="68.58" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
-<label x="71.12" y="134.62" size="1.27" layer="95" xref="yes"/>
+<wire x1="78.74" y1="134.62" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
+<label x="81.28" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
